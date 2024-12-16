@@ -1,0 +1,12 @@
+.topo-do-site img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+body{
+    background-color: #000;
+}
+.topo-do-site a{
+   margin: 20%;
+   padding: 20px;
+}

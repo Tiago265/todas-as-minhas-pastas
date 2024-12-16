@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #000;
+    }
+    h1{
+        color: #fefefe;
+    }
+.modal {
+    display: block; /* Oculta o modal por padrão */
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 1; /* Garante que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total da tela */
+    height: 100%; /* Altura total da tela */
+    overflow: auto; /* Adiciona barra de rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+}
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    border-radius: 15px;
+    border-color: rgb(216, 73, 73);
+    color: rgb(216, 73, 73);
+    background-color: #000; /* Cor de fundo do conteúdo */
+    margin: 5vw 33vw; /* Margem para centralizar o modal */
+    padding: 30px; /* Espaçamento interno */
+    border: 1px solid #888; /* Borda do modal */
+    width: 30%; /* Largura do conteúdo do modal */
+}
+.modal-content button{
+    border-radius: 20px;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(187, 145, 66);
+}
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa; /* Cor do botão de fechar */
+    float: right; /* Alinha à direita */
+    font-size: 50px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+/* Estilo para o botão de fechar quando o mouse estiver sobre ele */
+.close:hover,
+.close:focus {
+    color: rgb(184, 63, 63); /* Cor preta */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Altera o cursor para pointer */
+}
+
+
+.login label{
+    cursor: pointer;
+}
+.login{
+    border-style: solid;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    margin: 5vw 33vw;
+    background-color: #000;
+    color: rgb(216, 73, 73);
+    padding: 20px;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.login button{
+    border-radius: 20px;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(187, 145, 66);
+}
+.login button:hover{
+    scale: 1.2;
+    transition-duration: 1.05s;
+    
+}
+
